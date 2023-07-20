@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css"/>
+        <link rel="stylesheet" href="member_view.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/open-iconic@1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+           
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="menubar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="\index.html" class="logo">
+                                <img src="/assets/Purple_Logo_With_Name.png"/>
+                            </a>
+                        </li>
+                        <li><a href="\index.html" class="home-menu">
+                            <!-- <i class="bi bi-house"></i> -->
+                            <ion-icon name="home-outline"></ion-icon>
+                            <span class="nav-item">Home</span>
+                        </a></li>
+                        <li><a href="\MembershipType/membership_types.html">
+                            <!-- <i class="bi bi-people"></i> -->
+                            <ion-icon name="people-outline"></ion-icon>
+                            <span class="nav-item">Membership Types</span>
+                        </a></li>
+                        <li><a href="\Memberships/memberships.html">
+                            <!-- <i class="bi bi-people"></i> -->
+                            <ion-icon name="id-card-outline"></ion-icon>
+                            <span class="nav-item">Memberships</span>
+                        </a></li>
+                        <li><a href="\ClassSchedule/class_schedules.html">
+                            <!-- <i class="bi bi-calendar2-week"></i> -->
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <span class="nav-item">Class Schedules</span>
+                        </a></li>
+                        <li><a href="#" class="members-menu">
+                            <!-- <i class="bi bi-person"></i> -->
+                            <ion-icon name="person-outline"></ion-icon>
+                            <span class="nav-item">Members</span>
+                        </a></li>
+    
+                        <li><a href="\Attendance/attendance.html">
+                            <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                            <ion-icon name="finger-print-outline"></ion-icon>
+                            <span class="nav-item">Attendance</span>
+                        </a></li>
+    
+                        <li><a href="\Payments/payments.html">
+                            <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                            <ion-icon name="wallet-outline"></ion-icon>
+                            <span class="nav-item">Payment</span>
+                        </a></li>
+    
+                        <li><a href="\Reports/reports.html">
+                            <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                            <ion-icon name="newspaper-outline"></ion-icon>
+                            <span class="nav-item">Reports</span>
+                        </a></li>
+    
+                        <li><a href="\Settings/settings.html" class="settings-menu">
+                            <!-- <i class="fas fa-sign-out-alt"></i> -->
+                            <ion-icon name="settings-outline"></ion-icon>
+                            <span class="nav-item">Settings</span>
+                        </a></li>
+    
+                        <li><a href="#" class="logout-menu">
+                            <!-- <i class="fas fa-sign-out-alt"></i> -->
+                            <ion-icon name="exit-outline"></ion-icon>
+                            <span class="nav-item">Log Out</span>
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="left-content">
+                    <div class="member-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
+                    </div>
+
+                    <div class="member-details">
+                        <label>Swapnil Suresh Pachkude</label>
+
+                        <label>27-05-1991</label>
+
+                        <label>swapnilpachkude@gmail.com</label>
+
+                        <label>9152080880</label>
+
+                    </div>
+
+                </div>
+                <div class="right-content">
+                    <div class="tab_box">                    
+                        <button id="memberships_btn" class="tab_btn">Memberships</button>                        
+                        <button class="tab_btn">Payments</button>
+                        <div class="line"></div>
+                    </div>
+                    <div class="content_box">
+                        <div class="tab_content">
+                            <div class="table-box" id="memberships-table-box">
+                               
+                            </div>
+                        </div>
+                        <div class="tab_content" id="payments-table-box">
+                            <!-- <h3>Active</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+            <script src="member_view.js"></script>
+            <script src="" async defer></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>

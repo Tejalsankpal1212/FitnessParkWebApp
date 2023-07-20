@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css"/>
+        <link rel="stylesheet" href="member_create.css"/>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" /> -->
+        <link href="https://cdn.jsdelivr.net/npm/open-iconic@1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+           
+    </head>
+    <body>
+    <div class="main-container">
+        <div class="menubar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="\index.html" class="logo">
+                            <img src="/assets/Purple_Logo_With_Name.png"/>
+                        </a>
+                    </li>
+                    <li><a href="\index.html" class="home-menu">
+                        <!-- <i class="bi bi-house"></i> -->
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span class="nav-item">Home</span>
+                    </a></li>
+                    <li><a href="\MembershipType/membership_types.html" >
+                        <!-- <i class="bi bi-people"></i> -->
+                        <ion-icon name="people-outline"></ion-icon>
+                        <span class="nav-item">Membership Types</span>
+                    </a></li>
+                    <li><a href="\Memberships/memberships.html">
+                        <!-- <i class="bi bi-people"></i> -->
+                        <ion-icon name="id-card-outline"></ion-icon>
+                        <span class="nav-item">Memberships</span>
+                    </a></li>
+                    <li><a href="\ClassSchedule/class-schedules.html">
+                        <!-- <i class="bi bi-calendar2-week"></i> -->
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <span class="nav-item">Class Schedules</span>
+                    </a></li>
+                    <li><a href="#" class="members-menu">
+                        <!-- <i class="bi bi-person"></i> -->
+                        <ion-icon name="person-outline"></ion-icon>
+                        <span class="nav-item">Members</span>
+                    </a></li>
+
+                    <li><a href="\Attendance/attendance.html">
+                        <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                        <ion-icon name="finger-print-outline"></ion-icon>
+                        <span class="nav-item">Attendance</span>
+                    </a></li>
+
+                    <li><a href="\Payments/payments.html">
+                        <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                        <ion-icon name="wallet-outline"></ion-icon>
+                        <span class="nav-item">Payment</span>
+                    </a></li>
+
+                    <li><a href="\Reports/reports.html">
+                        <!-- <i class="bi bi-credit-card-2-front"></i> -->
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                        <span class="nav-item">Reports</span>
+                    </a></li>
+
+                    <li><a href="\Settings/settings.html" class="settings-menu">
+                        <!-- <i class="fas fa-sign-out-alt"></i> -->
+                        <ion-icon name="settings-outline"></ion-icon>
+                        <span class="nav-item">Settings</span>
+                    </a></li>
+
+                    <li><a href="#" class="logout-menu">
+                        <!-- <i class="fas fa-sign-out-alt"></i> -->
+                        <ion-icon name="exit-outline"></ion-icon>
+                        <span class="nav-item">Log Out</span>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>  
+        <div class="content">
+            <div class="member-create-header">
+                <div class="back-button">
+                    <a href="members.html">
+                        <ion-icon name="chevron-back-outline"></ion-icon>
+                        <span>Back</span>
+                    </a>
+                </div>
+                <div class="title">
+                    <label>Create Member</label>
+                </div>                
+            </div> 
+            <div class="member-create-content">
+                <div class="input-field-step input-field-step-active" id="input-field-step">
+                    <div class="input-field">
+                        <div class="personal-info-header">
+                            <label class="info-step">1</label>
+                            <div class="info-header">
+                                <label class="header-content">Basic Information</label>
+                                <label class="header-subcontent">Personal details and setttings</label>
+                            </div>  
+                        </div>
+                        <div class="personal-info">                        
+                            <div class="basic-details">
+                                <label>First Name</label>
+                                <input type="text" id="firstname" placeholder="Enter first name" required />
+
+                                <label>Middle Name</label>
+                                <input type="text" id="middlename" placeholder="Enter middle name" required />
+
+                                <label>Last Name</label>
+                                <input type="text" id="lastname" placeholder="Enter last name" required />
+
+                                <label>Date Of Birth</label>
+                                <input type="date" id="dateofbirth" placeholder="Select birth date" required />
+
+                                <label>Gender</label>
+                                <div class="gender-scope">
+                                    <label class="radio-inline">
+                                        <input type="radio" value="Male" name="gender-scope" checked>Male
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" value="Female" name="gender-scope">Female
+                                    </label>                                
+                                </div>                           
+                            </div>
+                            <div>
+                                <img></img>
+                            </div>
+                        </div>                       
+                    </div>
+                
+                    <div class="action-buttons">
+                    <button class="btn_next_step1" id="btn_next_step1"> NEXT</button>
+                    </div>
+                </div>
+                <div class="input-field-step">
+                    <div class="input-field">
+                        <div class="personal-info-header">
+                            <label class="info-step">2</label>
+                            <div class="info-header">
+                                <label class="header-content">Contact Information</label>
+                                <label class="header-subcontent">Address, Email and Phone number details</label>
+                            </div>  
+                        </div>
+                        <div class="contact-info">                        
+                            <div class="contact-details">
+                                <label>Address</label>
+                                <input type="text" id="address" class="address" placeholder="Enter member name" required />
+
+                                <label>City</label>
+                                <input type="text" id="city" placeholder="Enter city" required />
+
+                                <label>State</label>
+                                <input type="text" id="state" placeholder="Enter state" required />
+
+                                <label>Zipcode</label>
+                                <input type="text" id="zipcode" placeholder="Enter zipcode" required />
+           
+                                <label>Email Id</label>
+                                <input type="text" id="emailid" placeholder="Enter email id" required />
+
+                                <label>Mobile No</label>
+                                <input type="text" id="mobileno" placeholder="Enter mobile no" required />
+
+                            </div>
+                            <div>
+                                <img></img>
+                            </div>
+                        </div>                        
+                    </div>
+                
+                    <div class="action-buttons">
+                    <button class="btn_previous_step2" id="btn_previous_step2"> Previous</button>
+                    <button class="btn_next_step2" id="btn_next_step2"> NEXT</button>
+                    </div>
+                </div>  
+                <div class="input-field-step">
+                    <div class="input-field">
+                        <div class="physical-info-header">
+                            <label class="info-step">3</label>
+                            <div class="info-header">
+                                <label class="header-content">Physical Information</label>
+                                <label class="header-subcontent">Physic health history</label>
+                            </div>  
+                        </div>
+                        <div class="physical-info">                        
+                            <div class="physical-details">
+                                <label>Height</label>
+                                <input type="text" id="height"  placeholder="Enter member name" required />
+
+                                <label>Weight</label>
+                                <input type="text" id="weight" placeholder="Enter city" required />
+
+                                <label>Chest</label>
+                                <input type="text" id="chest" placeholder="Enter state" required />
+           
+                                <label>Waist</label>
+                                <input type="text" id="waist" placeholder="Enter email id" required />
+
+                                <label>Arms</label>
+                                <input type="text" id="arms" placeholder="Enter mobile no" required />
+
+                                <label>Thighs</label>
+                                <input type="text" id="thighs" placeholder="Enter mobile no" required />
+
+                            </div>
+                            <div>
+                                <img></img>
+                            </div>
+                        </div>                        
+                    </div>
+                
+                    <div class="action-buttons">
+                    <button class="btn_previous_step2" id="btn_previous_step2"> Previous</button>
+                    <button class="btn_next_step2" id="btn_next_step2"> NEXT</button>
+                    </div>
+                </div>
+                <div class="input-field-step">
+                    <div class="input-field">
+                        <div class="medical-info-header">
+                            <label class="info-step">4</label>
+                            <div class="info-header">
+                                <label class="header-content">Medical Information</label>
+                                <label class="header-subcontent">Address, Email and Phone number details</label>
+                            </div>  
+                        </div>
+                        <div class="medical-info">                        
+                            <div class="medical-details">
+                                <label>Past Treatement</label>
+                                <input type="text" id="pasttreatment" class="address" placeholder="Enter member name" required />
+
+                                <label>Allergy details</label>
+                                <input type="text" id="allergydetails" class="address" placeholder="Enter member name" required />
+
+                            </div>
+                            <div>
+                                <img></img>
+                            </div>
+                        </div>                        
+                    </div>
+                
+                    <div class="action-buttons">
+                    <button class="btn_submit" id="btn_submit"> Submit</button>
+                    
+                    </div>
+                </div>              
+            </div>
+            
+        </div>
+    </div>
+        <script src="member_create.js"></script>
+        <script src="" async defer></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>

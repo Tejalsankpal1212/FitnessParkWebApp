@@ -1,0 +1,149 @@
+.menubar nav ul li .home-menu{
+    background: #F7F8FA;
+    color: #920BEA;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    margin-left: 150px;
+    width: 100%;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 40%;
+}
+
+.left-content .dashboard-content{
+    display: flex;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 30%;
+    width:80%;
+}
+
+.dashboard-content .overview{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.view-block{
+    display:flex;
+    flex-direction: column;
+    height:110px;
+    width:95%;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+.left-content .sales-graph-block{
+    display: flex;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 30%;
+    width:80%;
+}
+
+.sales-graph-block .sales-graph{
+    display:block;
+    width:100%;
+    height:250px;
+    background-color: #fff;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    height:100% ;
+    width:60%;
+    margin-top: 40px;
+}
+
+.right-content .top-content{
+    display:flex;
+
+    flex-direction: column;
+    width:98%;
+    height:350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+
+.line{
+    position: relative;
+    left: 0;
+    width: 99%;
+    height: 1.5px;
+    margin-top: 10px;
+    background-color: #d6d5d5;
+    border-radius:10px;
+    margin-left:5px;
+}
+
+.class-widget-header{
+    margin-left:25px;
+    margin-top: 15px;
+    color:rgb(180, 180, 180);
+    font-size: 14px;
+    font-weight: 200;
+    font-family:"Poppins",sans-serif;
+}
+
+
+.right-content .bottom-content{
+    display:flex;
+    flex-direction: row;
+    width:98%;
+    margin-top: 30px;
+}
+
+.bottom-content .bottom-left-content{
+    width:50%;
+    height: 410px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+.bottom-content .bottom-right-content{
+    width:50%;
+    height: 410px;
+    margin-left: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+.counter{
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+    font-family:"Poppins",sans-serif;
+    margin-left: 80px;
+}

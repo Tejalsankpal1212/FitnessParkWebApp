@@ -1,0 +1,195 @@
+.menubar nav ul li .class-schedules-menu{
+    background: #F7F8FA;
+    color: #920BEA;    
+}
+
+.class-schedule-create-header{
+    margin-left:80px;
+    margin-top: 20px;  
+    font-size:18px;
+    font-weight: 500;
+    color:#3E4E5B;
+    width: 94%;
+    font-family: "Poppins",sans-serif;
+}
+.class-schedule-create-header .title{
+    display:flex;
+}
+
+.class-schedule-create-header .back-button a{
+    position: relative;
+    color: #6a8296;
+}
+.class-schedule-create-header .back-button a ion-icon{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.class-schedule-create-header .back-button a span{
+    position: relative;
+    font-size:16px; 
+    font-family:"Poppins";
+    font-weight: 200;
+    vertical-align: middle;
+}
+
+.class-schedule-create-header .back-button a:hover{
+    background: #F7F8FA;
+    color: #920BEA;
+}
+
+.class-schedule-create-content{ 
+    display: block;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    height: 115%;
+    margin-left: 80px;
+    margin-top: 100px;
+    background: #FFF;
+    width:35%;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+.input-field
+{
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    margin: 25px 0px 0px 40px;
+}
+
+.input-field label{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E4E5B;
+}
+.input-field input{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:10px;
+    height:35px;
+    width:400px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+    
+}
+
+.class-schedule-create-content .action-buttons{
+justify-content:center;
+display: flex;
+margin: 35px 40px 35px 0px;
+vertical-align: bottom;
+}
+
+.action-buttons .submit_button{
+    
+    font-size: 14px;  
+    font-weight: 300;  
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    border-radius:6px;
+    background: #920BEA;
+    color: #fff;
+}
+
+.staff{
+    position: relative;
+    height:35px;
+    width:400px;
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
+
+/* .days{
+    position: relative;
+    height:35px;
+    width:400px;
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+} */
+
+multi-checkbox {
+    /* Element */
+    --mc-border:  2px solid  #ebebeb;
+    --mc-height:35px;
+    --mc-width:365px;   
+    --mc-margin: 0;
+    --mc-position: relative;
+    --mc-border-radius: 3px;
+    --mc-margin: 0 10px 0 0;
+    --mc-padding:5px;
+    /* position: relative;
+    height:35px;
+    width:400px;
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+     */
+
+    /* Dropdown */
+    --mc-dropdown-background: #efefef;
+    --mc-dropdown-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.35);
+    --mc-dropdown-max-height: 200px;
+    --mc-dropdown-text-align: left;
+    --mc-dropdown-width: 400px;
+
+    /* Input */
+    --mc-target-background: #efefef;
+    --mc-target-color: #3E4E5B;
+    --mc-target-cursor: default;
+    --mc-target-height: 28px;
+    --mc-target-margin: 0;
+    --mc-target-max-height: default;
+    --mc-target-min-height: default;
+    --mc-target-max-width: default;
+    --mc-target-min-width: default;
+    --mc-target-padding: 0px 0px 0px 3px;
+    --mc-target-outline: none;
+    --mc-vertical-align: middle;
+    --mc-target-width: 365px;
+
+    /* Dropdown Line Items */
+    --mc-dropdown-color: #000000;
+    --mc-dropdown-line-height: 2em;
+    --mc-ul-margin: 5px;
+    --mc-ul-padding: 0;
+    --mc-checkbox-height: auto;
+    --mc-checkbox-width: auto;
+
+    /* Toggle Button */
+    --mc-toggle-button-background: #ffffff;
+    --mc-toggle-button-color: #000000;
+    --mc-toggle-button-cursor: pointer;
+    --mc-toggle-button-height: 30px;
+    --mc-toggle-button-outline: none;
+    --mc-vertical-align: middle;
+    --mc-toggle-button-width: 30px;
+
+    /* Close Button */
+    --mc-close-button-background: #efefef;
+    --mc-close-button-border: none;
+    --mc-close-button-border-radius: default;
+    --mc-close-button-color: #000000;
+    --mc-close-button-cursor: pointer;
+    --mc-close-button-display: block;
+    --mc-close-button-height: 22px;
+    --mc-close-button-margin: 5px auto;
+    --mc-close-button-outline: none;
+    --mc-close-button-width: 22px;
+}

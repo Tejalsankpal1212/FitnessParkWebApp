@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+margin: 0;
+padding: 0;
+outline: none;
+border: none;
+text-decoration:none;
+box-sizing: border-box;
+font-family: "Poppins",sans-serif;
+}   
+
+body{
+background:#F7F8FA;
+}
+
+nav{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #EDEFF2;
+    width:180px;
+    overflow:hidden;
+    transition: width 0.2s linear;
+    box-shadow:0 20px 35px rgba(0 0 0 0.1);
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{  
+    width: 100%;
+    height: 100%;
+}
+
+.main-container{
+    display: flex;
+    height: 749px;
+}
+
+.content{
+    top: 0;
+    bottom: 0;
+    margin-left: 180px;
+    background: #F7F8FA;
+    width: 89%;
+}
+
+.menubar nav ul li a{
+    position: relative;
+    color: #3E4E5B;
+    font-size: 13px;
+    display: table  ;
+    width: 180px;
+    padding: 10px;
+    font-weight:450;
+    }
+    
+.menubar nav ul li a ion-icon{
+        position: relative;
+        width: 22px;
+        height: 22px;
+        font-size:16px; 
+        font-family:"Poppins";
+        font-weight: 200;
+        text-align: center;
+}
+    
+
+.nav-item{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.menubar nav ul li a:hover{
+    background: #F7F8FA;
+    color: #920BEA;
+}
+
+nav:hover{
+   width: 180px;
+   transition: all 0.5s ease; 
+}
+
+.menubar nav ul li .logout-menu{
+    position: absolute;
+    bottom: 0;
+}
+
+.menubar nav ul li .settings-menu{
+    position: absolute;
+    bottom: 40px;
+}

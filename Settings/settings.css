@@ -1,0 +1,109 @@
+.menubar nav ul li .settings-menu{
+    background: #F7F8FA;
+    color: #920BEA;    
+}
+
+.settings-header{
+    margin-left:80px;
+    margin-top: 20px;  
+    font-size:18px;
+    font-weight: 500;
+    color:#3E4E5B;
+    width: 94%;
+    font-family: "Poppins",sans-serif;
+}
+.settings-header .title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab_box{
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+}
+
+.tab_box .tab_btn{
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-weight: 350;
+    color: #3E4E5B;
+    background: none;
+    border: none;
+    margin:10px 20px 5px 0px;
+    cursor: pointer;
+}
+
+.tab_box .tab_btn.active{
+    color: #920BEA;
+}
+
+.content_box .tab_content{
+    display: none;
+}
+
+.content_box .tab_content.active{
+    display: block;
+}
+
+.line{
+    position: absolute;
+    top: 33.5px;
+    left: 0;
+    width: auto;
+    height: 4px;
+    background-color: #920BEA;
+    border-radius:10px;
+}
+
+
+/* Table Ui Design */
+
+.table-box{
+    margin: 30px auto;
+
+}
+
+.table-outer-row{
+    display: table;
+    height: 70px;
+    width: 100%;
+    margin: 10px auto;
+    background:#920BEA;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    border-radius: 5px;
+}
+
+.table-inner-row{
+display: table;
+height:100%;
+width: 100%;
+margin:0px 5px;
+font-family: "Poppins", sans-serif;
+background: #fff;
+padding: 12px 0;
+color: #555;
+font-size: 13px;
+box-shadow: 2px 2px 4px 2px rgba(229, 229, 229, 1.5);
+border-radius: 5px;
+border-color:#e5e5e5 ;
+}
+
+.table-cell{
+    display: table-cell;
+    width:fit-content;
+    text-align:center;
+    vertical-align:middle;
+    
+}
+
+.action-btn{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    vertical-align:middle;    
+}

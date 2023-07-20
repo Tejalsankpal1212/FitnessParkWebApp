@@ -1,0 +1,375 @@
+.menubar nav ul li .members-menu{
+    background: #F7F8FA;
+    color: #920BEA;    
+}
+
+.member-create-header{
+    margin-left:80px;
+    margin-top: 20px;  
+    font-size:18px;
+    font-weight: 500;
+    color:#3E4E5B;
+    width: 94%;
+    font-family: "Poppins",sans-serif;
+}
+.member-create-header .title{
+    display:flex;
+}
+
+.member-create-header .back-button a{
+    position: relative;
+    color: #6a8296;
+}
+.member-create-header .back-button a ion-icon{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.member-create-header .back-button a span{
+    position: relative;
+    font-size:16px; 
+    font-family:"Poppins";
+    font-weight: 200;
+    vertical-align: middle;
+}
+
+.member-create-header .back-button a:hover{
+    background: #F7F8FA;
+    color: #920BEA;
+}
+
+.member-create-content{ 
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    height: 80%;
+    margin-left: 80px;
+    margin-top: 100px;
+    background: #FFF;
+    width:35%;
+    box-shadow: rgba(124, 124, 124, 0.2) 0px 1px 8px 0px;
+}
+
+.input-field-step{
+display: none;
+}
+.input-field-step-active{
+    display:flex;
+    flex-direction: column;
+    }
+
+.input-field
+{   
+    height: 80%;
+    width: 100%;
+    margin: 15px 0px 0px 40px;
+}
+
+/* --------------- Personal Information ------------------*/
+
+.input-field .personal-info{
+    display: flex;
+}
+
+.personal-info-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.personal-info-header .info-step{
+    font-size: 45px;
+    color: rgb(180, 180, 180);
+}
+
+.personal-info-header .info-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px    ;
+}
+
+.personal-info-header .header-content{
+    font-size: 15px;
+    color: #920BEA;
+    margin-left: 10px;
+}
+
+.personal-info-header .header-subcontent{
+    font-size: 12px;
+    color: rgb(180, 180, 180);;
+    margin-left: 10px;
+}
+
+.personal-info .basic-details{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-details label{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E4E5B;
+}
+.basic-details input{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:10px;
+    height:35px;
+    width:50%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
+
+/* ---------------  Contact Information ------------------*/
+
+.input-field .contact-info{
+    display: flex;
+}
+
+.contact-info-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info-header .info-step{
+    font-size: 45px;
+    color: rgb(180, 180, 180);
+}
+
+.contact-info-header .info-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px    ;
+}
+
+.contact-info-header .header-content{
+    font-size: 15px;
+    color: #920BEA;
+    margin-left: 10px;
+}
+
+.contact-info-header .header-subcontent{
+    font-size: 12px;
+    color: rgb(180, 180, 180);;
+    margin-left: 10px;
+}
+
+.contact-info .contact-details{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details label{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E4E5B;
+}
+.contact-details input{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:10px;
+    height:35px;
+    width:70%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;
+}
+.contact-details .address{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    height:70px;
+    width:70%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;
+    vertical-align: top;
+}
+
+/* ---------------  Physical Information ------------------*/
+
+.input-field .physical-info{
+    display: flex;
+}
+
+.physical-info-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.physical-info-header .info-step{
+    font-size: 45px;
+    color: rgb(180, 180, 180);
+}
+
+.physical-info-header .info-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px    ;
+}
+
+.physical-info-header .header-content{
+    font-size: 15px;
+    color: #920BEA;
+    margin-left: 10px;
+}
+
+.physical-info-header .header-subcontent{
+    font-size: 12px;
+    color: rgb(180, 180, 180);;
+    margin-left: 10px;
+}
+
+.physical-info .physical-details{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.physical-details label{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E4E5B;
+}
+.physical-details input{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:10px;
+    height:35px;
+    width:70%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
+
+/* ---------------  Medical Information ------------------*/
+
+.input-field .medical-info{
+    display: flex;
+}
+
+.medical-info-header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.medical-info-header .info-step{
+    font-size: 45px;
+    color: rgb(180, 180, 180);
+}
+
+.medical-info-header .info-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px    ;
+}
+
+.medical-info-header .header-content{
+    font-size: 15px;
+    color: #920BEA;
+    margin-left: 10px;
+}
+
+.medical-info-header .header-subcontent{
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+    margin-left: 10px;
+}
+
+.medical-info .medical-details{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.medical-details label{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3E4E5B;
+}
+.medical-details input{
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:10px;
+    height:105px;
+    width:70%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
+
+
+
+.gender-scope
+{ 
+    width: 100%;
+    accent-color: #920BEA; 
+}
+
+.gender-scope .radio-inline{
+    font-weight: 300;  
+    color:#3E4E5B; 
+}
+
+.radio-inline input{
+    height: auto;
+    width: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.member-create-content .action-buttons{
+justify-content:center;
+display: flex;
+margin: 35px 40px 35px 0px;
+vertical-align: bottom;
+}
+
+.action-buttons Button{
+    
+    font-size: 14px;  
+    font-weight: 300;  
+    height: 35px;
+    width: 150px;
+    padding: 5px;
+    border-radius:6px;
+    background: #920BEA;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.membership-types{
+    position: relative;
+    height:35px;
+    width:400px;
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
+
+.membership-class{
+    position: relative;
+    height:35px;
+    width:400px;
+    border: 2px solid  #ebebeb;
+    font-size: 12px;
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color:#3E4E5B;  
+}
